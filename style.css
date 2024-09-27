@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.darkbg {
+    background-color: #090c22;
+    color: #fff;
+}
+
+.greybg {
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* removes underline from all links */
+
+/* menu and banner start */
+
+.navtext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navtext h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar li a {
+    color: rgba(255, 255, 255, 0.75);
+    transition-duration: 0.3s;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    color: #fff;
+}
+
+.banner {
+    padding: 50px 0;
+}
+
+.bn-content {
+    text-align: center;
+    padding: 28px 290px;
+}
+
+.bn-content h1 {
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+.bn-content h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #aaa8b2;
+    padding-bottom: 32px;
+}
+
+.bn-btn {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-one {
+    background-color: #3f7ff6;
+}
+
+.btn-one:hover {
+    background-color: #2c62c7;
+    transition-duration: 0.3s;
+}
+
+.btn-two {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-two:hover {
+    background-color: #fff;
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+/* menu and banner end */
+
+.row {
+    margin: 5rem auto;
+}
+
+.ibox {
+    background-color: #3f7ff6;
+    color: #fff;
+    font-size: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* featured section start */
+
+.col-4 h2 {
+    margin-bottom: 12px;
+}
+
+.col-4 p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.col-4 a {
+    color: #3f7ff6;
+}
+
+.col-4 a:hover {
+    color: #2c62c7;
+}
+
+/* featured section end */
+
+hr {
+    border-color: #f8f9fa90;
+}
+
+/* payment plans section start */
+
+.hcenter {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.hcenter h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.hcenter h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.card {
+    justify-content: space-around;
+    margin-top: 3rem !important;
+
+}
+
+.boxcol {
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3.5rem;
+}
+
+.smalltext {
+    text-transform: uppercase;
+    color: #8a8989;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.boxcol h1 {
+    font-size: 56px;
+    margin-bottom: 8px;
+}
+
+.boxcol span {
+    color: #8a8989;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.boxcol ul {
+    line-height: 2;
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+
+.bxs-star {
+    font-size: 16px;
+    color: #ffca1c;
+}
+
+.bold {
+    color: #000;
+}
+
+.bx-check {
+    color: #3f7ff6;
+}
+
+.btn-card {
+    border: 1px solid #3f7ff6;
+    border-radius: 6px;
+    color: #3f7ff6;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.btn-card-blue {
+    border-radius: 6px;
+    background-color: #3f7ff6;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.btn-card:hover {
+    background-color: #3f7ff6;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.btn-card-blue:hover {
+    background-color: #2c62c7;
+    transition-duration: 0.3s;
+}
+
+/* payment plans section end */
+
+/* review section start */
+
+.review {
+    margin: 3rem auto;
+}
+
+.revbox {
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    width: 45%;
+    margin: 1.5rem auto;
+    padding: 1.5rem 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bxs-message-dots {
+    font-size: 42px;
+    color: #3f7ff6;
+}
+
+.revp {
+    display: flex;
+    line-height: 1.5;
+}
+
+.revsmall {
+    font-size: 14px;
+    color: #8a8989;
+}
+
+.revbox i {
+    float: inline-start;
+    margin: 1rem 1.5rem 1rem 1rem;
+}
+
+/* review section end */
+
+/* form section start */
+
+.hcform {
+    padding: 1.5rem;
+}
+
+.form-content {
+    margin: 2rem auto;
+    text-align: center;
+    position: relative;
+}
+
+.input-box {
+    width: 45%;
+    height: 3rem;
+    border: 1px solid #8a8989;
+    border-radius: 8px;
+}
+
+.ib-msg {
+    height: 12rem !important;
+}
+
+label {
+    position: absolute;
+    padding: 1rem 0.75rem;
+}
+
+/* form section end */
+
+footer h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 2rem;
+}
